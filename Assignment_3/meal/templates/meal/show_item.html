@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+    <div class="content-container">
+        {% for meal in context %}
+            <div class="card" style="width: 18rem;">
+                <img src="{{meal.strCategoryThumb}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">{{meal.strCategory}}</h5>
+                    <h6>Category ID : {{meal.idCategory}}</h6>
+                    <p>{{meal.strCategoryDescription | truncatewords:10}}</p>
+                    <p class="card-text"></p>
+                    <a href="{% url "buynow" %}" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock content %}

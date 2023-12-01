@@ -1,0 +1,37 @@
+.photofounder
+{
+    width: 300px;
+}
+
+.aboutcontainer img
+{
+    animation: anima;
+    animation-duration: 5s;
+    border: 3px solid white;
+    border-radius: 70px;
+}
+
+@keyframes anima
+{
+    0%
+    {
+        transform: rotateY(0deg);
+    }
+    100%
+    {
+        transform: rotateY(360deg);
+    }
+}
+
+.aboutcontainer
+{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.foundertext
+{
+    color: rgb(213, 212, 212);
+    font-weight: bold;
+}
+

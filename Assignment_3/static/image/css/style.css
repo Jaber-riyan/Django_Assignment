@@ -1,0 +1,44 @@
+#logo {
+  width: 60px;
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 0, 28, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+#content-text {
+  color: white;
+  text-align: center;
+}
+
+.content-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.home-photo
+{
+    border-radius: 20px;
+    box-shadow: 20px 30px 30px;
+}
+
+.home-photo:hover
+{
+    border-radius: 50px;
+}
+
+#nav-text:hover
+{
+    color: rgb(207, 200, 200);
+}

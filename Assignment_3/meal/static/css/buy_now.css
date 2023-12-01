@@ -1,0 +1,40 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(0, 0, 28, 1) 35%,
+      rgba(0, 212, 255, 1) 100%
+    );
+}
+#logo {
+width: 60px;
+}
+
+.sorry
+{
+    width: 500px;
+}
+
+.buy_now_body
+{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.buytext
+{
+    color: rgb(213, 212, 212);
+}
+
+.aboutphoto
+{
+    width: 400px;
+}
+
+.aboutcontainer
+{
+    text-align: center;
+    margin-top: 40px;
+}
+
